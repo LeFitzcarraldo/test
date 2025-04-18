@@ -1,0 +1,25 @@
+{
+  "name": "code-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080",
+    "build": "workbox generateSW",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diff2html": "^3.4.51",
+    "localforage": "^1.10.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "http-server": "^14.1.1",
+    "workbox-cli": "^7.3.0"
+  }
+}

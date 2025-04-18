@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePWA</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Monaco Editor CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs/loader.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <button id="saveVersion">Save Version</button>
+      <div id="versionHistory"></div>
+    </aside>
+    
+    <main>
+      <div id="editor" style="height: 90vh; width: 80vw;"></div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
